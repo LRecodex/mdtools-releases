@@ -3,7 +3,6 @@
 Prebuilt Windows installers for **MD Tools**, a fast, polished desktop app for browsing, viewing,
 and authoring Markdown files — with live preview and built-in Mermaid diagram rendering.
 
-This repository only hosts release binaries. The source code is private.
 
 ![MD Tools — Mermaid diagram rendered live in Preview mode](.github/assets/screenshot-mermaid.png)
 
