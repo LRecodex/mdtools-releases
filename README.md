@@ -9,8 +9,8 @@ Markdown and working with common document formats.
 
 Get the newest build from the **[latest release](../../releases/latest)**:
 
-- **`MD Tools-Setup-x.x.x.exe`** — standard installer (recommended), with Start Menu and Desktop shortcuts
-- **`MD Tools-Portable-x.x.x.exe`** — portable app; run it without installing
+- **`MD.Tools-Setup-x.x.x.exe`** — standard installer (recommended), with Start Menu and Desktop shortcuts
+- **`MD.Tools-Portable-x.x.x.exe`** — portable app; run it without installing
 
 Both packages target **64-bit Windows**. The builds are currently unsigned, so Windows SmartScreen
 may show “Windows protected your PC” the first time you open one. Choose **More info → Run anyway**
