@@ -2,6 +2,18 @@
 
 All notable user-facing changes to MD Tools are recorded here. Versions follow semantic versioning.
 
+## [1.3.0] — 2026-07-27
+
+### Added
+
+- Open Markdown files by dragging them into MD Tools from File Explorer, without opening their parent folder.
+- Drop multiple Markdown files at once to open each one in an editor tab.
+- Clear drop-target feedback and an error message when a dropped item is not a supported Markdown file.
+
+### Changed
+
+- Standalone dropped files remain editable with live Source, Split, and Preview modes while the current workspace stays unchanged.
+
 ## [1.2.0] — 2026-07-22
 
 ### Added
@@ -53,6 +65,7 @@ All notable user-facing changes to MD Tools are recorded here. Versions follow s
 - Built-in help and keyboard-shortcut reference.
 - Setup installer and portable 64-bit Windows packages.
 
+[1.3.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.3.0
 [1.2.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.2.0
 [1.1.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.1.0
 [1.0.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.0.0

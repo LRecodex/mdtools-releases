@@ -1,6 +1,6 @@
 # MD Tools — Releases
 
-Download ready-to-use Windows builds of **MD Tools 1.2**, a focused desktop workspace for writing
+Download ready-to-use Windows builds of **MD Tools 1.3**, a focused desktop workspace for writing
 Markdown and working with common document formats.
 
 ![MD Tools workspace with the formatting toolbar and live Split preview](.github/assets/screenshot-workspace.png)
@@ -16,20 +16,19 @@ Both packages target **64-bit Windows**. The builds are currently unsigned, so W
 may show “Windows protected your PC” the first time you open one. Choose **More info → Run anyway**
 if you downloaded the file from this repository.
 
-## What’s new in 1.2
+## What’s new in 1.3
 
-- Edit Markdown, plain-text, JSON, and source-code files in one workspace
-- Preview images, PDFs, Word documents (`.docx`), Excel workbooks (`.xlsx` / `.xlsm`), and CSV tables
-- Export a rendered Markdown document—including syntax highlighting and Mermaid diagrams—to PDF
-- Use language-aware editing and JSON syntax support for non-Markdown text files
-- Render useful inline HTML safely while removing scripts, event handlers, forms, embedded pages, and inline styles
-- Create new Markdown, TXT, or JSON documents from the document picker
+- Drag Markdown files from File Explorer into MD Tools to edit and preview them without opening a folder
+- Drop several Markdown files at once to open them in separate tabs
+- Keep the current workspace unchanged when working with dropped files
+- See a clear drop target and helpful feedback for unsupported file types
 
 See [CHANGELOG.md](CHANGELOG.md) for the complete history from 1.0 onward.
 
 ## Core features
 
 - Browse a workspace and create, rename, or delete files and folders from the sidebar
+- Open standalone Markdown files by dragging them into the app—no workspace required
 - Edit Markdown in **Source**, **Split**, or **Preview** mode with live Mermaid rendering
 - Format headings, emphasis, links, lists, tasks, tables, code, and diagrams from the toolbar
 - Start quickly with **15 built-in templates** for meetings, projects, study, development, journals, and more
@@ -61,8 +60,8 @@ the current Markdown document. MD Tools asks for confirmation before replacing e
 ## Getting started
 
 1. Install MD Tools, or open the portable executable.
-2. Open a folder with `Ctrl+O`; that folder becomes your workspace.
-3. Select a supported file in the sidebar, or press `Ctrl+N` to create a document.
+2. Open a folder with `Ctrl+O`, or drag a Markdown file directly into the app.
+3. Select a supported file in the sidebar, drop one or more Markdown files, or press `Ctrl+N` to create a document.
 4. For Markdown, choose Source, Split, or Preview mode from the editor toolbar.
 5. Keep writing—editable files save shortly after you stop typing, or immediately with `Ctrl+S`.
 
