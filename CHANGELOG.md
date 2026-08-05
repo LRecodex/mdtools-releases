@@ -2,6 +2,19 @@
 
 All notable user-facing changes to MD Tools are recorded here. Versions follow semantic versioning.
 
+## [1.4.0] — 2026-08-05
+
+### Added
+
+- A clear “Create in” indicator shows where toolbar-created files and folders will be placed.
+- A Collapse All Folders button quickly resets the workspace tree and creation target.
+
+### Changed
+
+- The top New File and New Folder buttons now create inside the selected folder instead of always using the workspace root.
+- Right-clicking a folder selects it as the creation target, and new folder inputs automatically reveal collapsed targets.
+- Folder selection now follows folder renames and safely returns to the parent when the selected folder is deleted externally or from the app.
+
 ## [1.3.0] — 2026-07-27
 
 ### Added
@@ -65,6 +78,7 @@ All notable user-facing changes to MD Tools are recorded here. Versions follow s
 - Built-in help and keyboard-shortcut reference.
 - Setup installer and portable 64-bit Windows packages.
 
+[1.4.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.4.0
 [1.3.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.3.0
 [1.2.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.2.0
 [1.1.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.1.0

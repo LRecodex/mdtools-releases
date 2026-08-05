@@ -1,6 +1,6 @@
 # MD Tools — Releases
 
-Download ready-to-use Windows builds of **MD Tools 1.3**, a focused desktop workspace for writing
+Download ready-to-use Windows builds of **MD Tools 1.4**, a focused desktop workspace for writing
 Markdown and working with common document formats.
 
 ![MD Tools workspace with the formatting toolbar and live Split preview](.github/assets/screenshot-workspace.png)
@@ -16,18 +16,18 @@ Both packages target **64-bit Windows**. The builds are currently unsigned, so W
 may show “Windows protected your PC” the first time you open one. Choose **More info → Run anyway**
 if you downloaded the file from this repository.
 
-## What’s new in 1.3
+## What’s new in 1.4
 
-- Drag Markdown files from File Explorer into MD Tools to edit and preview them without opening a folder
-- Drop several Markdown files at once to open them in separate tabs
-- Keep the current workspace unchanged when working with dropped files
-- See a clear drop target and helpful feedback for unsupported file types
+- Create files and folders from the top toolbar directly inside the selected folder
+- See the current creation destination at a glance, with a quick reset to the workspace root
+- Keep the right destination selected when folders are renamed, deleted, or created
+- Collapse the entire folder tree with one click
 
 See [CHANGELOG.md](CHANGELOG.md) for the complete history from 1.0 onward.
 
 ## Core features
 
-- Browse a workspace and create, rename, or delete files and folders from the sidebar
+- Browse a workspace and create, rename, or delete files and folders from the sidebar; toolbar creation follows the selected folder
 - Open standalone Markdown files by dragging them into the app—no workspace required
 - Edit Markdown in **Source**, **Split**, or **Preview** mode with live Mermaid rendering
 - Format headings, emphasis, links, lists, tasks, tables, code, and diagrams from the toolbar
