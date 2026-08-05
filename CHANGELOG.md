@@ -2,6 +2,19 @@
 
 All notable user-facing changes to MD Tools are recorded here. Versions follow semantic versioning.
 
+## [1.5.0] — 2026-08-05
+
+### Added
+
+- Copy files or entire folders from the workspace tree and paste them into any folder.
+- Copy a file or folder’s full path directly to the system clipboard.
+- Right-click empty space in the sidebar to access the workspace root’s folder actions.
+
+### Changed
+
+- Pasted duplicates receive automatic “Copy” names while retaining file extensions.
+- The workspace root can no longer be renamed or deleted from its context menu.
+
 ## [1.4.0] — 2026-08-05
 
 ### Added
@@ -78,6 +91,7 @@ All notable user-facing changes to MD Tools are recorded here. Versions follow s
 - Built-in help and keyboard-shortcut reference.
 - Setup installer and portable 64-bit Windows packages.
 
+[1.5.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.5.0
 [1.4.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.4.0
 [1.3.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.3.0
 [1.2.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.2.0
