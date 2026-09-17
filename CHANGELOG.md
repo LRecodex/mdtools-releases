@@ -2,6 +2,12 @@
 
 All notable user-facing changes to MD Tools are recorded here. Versions follow semantic versioning.
 
+## [1.8.2] - 2026-09-17
+
+### Changed
+
+- Reworked packaged-app updates into a user-controlled status bar flow: check in the background, show an update button, download on request, then restart to install.
+
 ## [1.8.1] - 2026-09-17
 
 ### Added
@@ -140,6 +146,7 @@ All notable user-facing changes to MD Tools are recorded here. Versions follow s
 - Built-in help and keyboard-shortcut reference.
 - Setup installer and portable 64-bit Windows packages.
 
+[1.8.2]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.8.2
 [1.8.1]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.8.1
 [1.8.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.8.0
 [1.7.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.7.0

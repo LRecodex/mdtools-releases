@@ -1,6 +1,6 @@
 # MD Tools - Releases
 
-Download ready-to-use Windows builds of **MD Tools v1.8.1**, a focused desktop workspace for writing Markdown, browsing project documents, and previewing Mermaid diagrams.
+Download ready-to-use Windows builds of **MD Tools v1.8.2**, a focused desktop workspace for writing Markdown, browsing project documents, and previewing Mermaid diagrams.
 
 Get the newest build from the **[latest release](../../releases/latest)**.
 
@@ -13,11 +13,11 @@ Get the newest build from the **[latest release](../../releases/latest)**.
 
 Both packages target **64-bit Windows**. The builds are currently unsigned, so Windows SmartScreen may show a warning the first time you open one. Choose **More info > Run anyway** only when the file was downloaded from this repository.
 
-## What's New In v1.8.1
+## What's New In v1.8.2
 
-- Focused the Support LRecodex donation dialog on a cleaner, scannable QR presentation.
-- Added automatic update checks for packaged builds using the GitHub Releases feed.
-- Keeps the v1.8 workspace search, document find, and support dialog improvements.
+- Added a user-controlled update flow in the status bar.
+- Packaged builds check for updates in the background, but download only when the user starts the update.
+- Download progress is visible, and the action changes to **Restart to update** when ready.
 
 See [CHANGELOG.md](CHANGELOG.md) for the release history.
 
@@ -55,6 +55,6 @@ See [CHANGELOG.md](CHANGELOG.md) for the release history.
 
 ## Updating
 
-Installed packaged builds check this repository's latest GitHub Release shortly after startup. When a newer setup build is available, MD Tools downloads it using `latest.yml` metadata and installs it when the app quits.
+Installed packaged builds check this repository's latest GitHub Release shortly after startup. When a newer setup build is available, MD Tools shows an update action in the status bar. The user can keep working, download when ready, then restart to install.
 
 Maintainers: see [RELEASE.md](RELEASE.md) for release commands.
