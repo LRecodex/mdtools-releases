@@ -2,6 +2,18 @@
 
 All notable user-facing changes to MD Tools are recorded here. Versions follow semantic versioning.
 
+## [1.9.0] - 2026-09-17
+
+### Added
+
+- Command palette with workspace, search, settings, update, theme, and help commands.
+- Welcome dashboard with recent workspaces and quick actions.
+- Markdown insights panel for document outline, wiki links, and backlinks.
+- `[[Page Name]]` wiki links that open existing Markdown pages or create new ones.
+- Rendered Markdown export to standalone HTML.
+- Settings dialog for theme, editor mode, sidebar layout, and update status.
+- Update dialog with latest release notes and explicit Download / Restart actions.
+
 ## [1.8.2] - 2026-09-17
 
 ### Changed
@@ -146,6 +158,7 @@ All notable user-facing changes to MD Tools are recorded here. Versions follow s
 - Built-in help and keyboard-shortcut reference.
 - Setup installer and portable 64-bit Windows packages.
 
+[1.9.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.9.0
 [1.8.2]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.8.2
 [1.8.1]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.8.1
 [1.8.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.8.0

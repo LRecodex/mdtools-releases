@@ -1,6 +1,6 @@
 # MD Tools - Releases
 
-Download ready-to-use Windows builds of **MD Tools v1.8.2**, a focused desktop workspace for writing Markdown, browsing project documents, and previewing Mermaid diagrams.
+Download ready-to-use Windows builds of **MD Tools v1.9.0**, a focused desktop workspace for writing Markdown, browsing project documents, and previewing Mermaid diagrams.
 
 Get the newest build from the **[latest release](../../releases/latest)**.
 
@@ -13,11 +13,14 @@ Get the newest build from the **[latest release](../../releases/latest)**.
 
 Both packages target **64-bit Windows**. The builds are currently unsigned, so Windows SmartScreen may show a warning the first time you open one. Choose **More info > Run anyway** only when the file was downloaded from this repository.
 
-## What's New In v1.8.2
+## What's New In v1.9.0
 
-- Added a user-controlled update flow in the status bar.
-- Packaged builds check for updates in the background, but download only when the user starts the update.
-- Download progress is visible, and the action changes to **Restart to update** when ready.
+- Added a command palette with `Ctrl+Shift+P`.
+- Added a welcome dashboard with recent workspaces and quick actions.
+- Added a Markdown insights panel for headings, wiki links, and backlinks.
+- Added `[[Page Name]]` wiki links that open or create Markdown pages.
+- Added HTML export next to the existing PDF export.
+- Added a Settings dialog and a release-notes update dialog.
 
 See [CHANGELOG.md](CHANGELOG.md) for the release history.
 
@@ -25,7 +28,9 @@ See [CHANGELOG.md](CHANGELOG.md) for the release history.
 
 - Browse a workspace and create, copy, paste, rename, or delete files and folders from the sidebar.
 - Edit Markdown in Source, Split, or Preview mode with live Mermaid rendering.
+- Open commands from `Ctrl+Shift+P`.
 - Search workspace file names, folder names, paths, and supported text file contents with `Ctrl+P`.
+- Navigate Markdown headings, wiki links, and backlinks from the insights panel.
 - Find inside the current document with `Ctrl+F`; Source/Split also support replace, regex, whole-word, and case-sensitive search.
 - Format headings, emphasis, links, lists, tasks, tables, code, and Mermaid diagrams from the toolbar.
 - Start from 15 built-in templates for meetings, projects, study, development, journals, and checklists.
@@ -43,6 +48,7 @@ See [CHANGELOG.md](CHANGELOG.md) for the release history.
 | `Ctrl+W` | Close current tab |
 | `Ctrl+Shift+W` | Close all tabs |
 | `Ctrl+P` | Quick Open workspace search |
+| `Ctrl+Shift+P` | Command Palette |
 | `Ctrl+F` | Find in current document |
 | `F3` / `Shift+F3` | Next / previous match |
 | `Ctrl+H` | Find and replace in Source or Split mode |
