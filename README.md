@@ -1,6 +1,6 @@
 # MD Tools - Releases
 
-Download ready-to-use Windows builds of **MD Tools v1.9.0**, a focused desktop workspace for writing Markdown, browsing project documents, and previewing Mermaid diagrams.
+Download ready-to-use Windows builds of **MD Tools v1.10.0**, a focused desktop workspace for writing Markdown, browsing project documents, and previewing Mermaid diagrams.
 
 Get the newest build from the **[latest release](../../releases/latest)**.
 
@@ -13,14 +13,11 @@ Get the newest build from the **[latest release](../../releases/latest)**.
 
 Both packages target **64-bit Windows**. The builds are currently unsigned, so Windows SmartScreen may show a warning the first time you open one. Choose **More info > Run anyway** only when the file was downloaded from this repository.
 
-## What's New In v1.9.0
+## What's New In v1.10.0
 
-- Added a command palette with `Ctrl+Shift+P`.
-- Added a welcome dashboard with recent workspaces and quick actions.
-- Added a Markdown insights panel for headings, wiki links, and backlinks.
-- Added `[[Page Name]]` wiki links that open or create Markdown pages.
-- Added HTML export next to the existing PDF export.
-- Added a Settings dialog and a release-notes update dialog.
+- Added a formula-aware Excel preview with row and column labels.
+- Select any spreadsheet cell to inspect its formula and calculated result.
+- Formula references and their input cells use matching colors, making calculations easy to follow.
 
 See [CHANGELOG.md](CHANGELOG.md) for the release history.
 

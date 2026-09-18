@@ -2,6 +2,14 @@
 
 All notable user-facing changes to MD Tools are recorded here. Versions follow semantic versioning.
 
+## [1.10.0] - 2026-09-18
+
+### Added
+
+- Formula-aware Excel preview with visible row and column labels.
+- Cell inspector that shows the selected cell's value, formula, and calculated result.
+- Matching color highlights for formula references and the cells they use.
+
 ## [1.9.0] - 2026-09-17
 
 ### Added
@@ -159,6 +167,7 @@ All notable user-facing changes to MD Tools are recorded here. Versions follow s
 - Setup installer and portable 64-bit Windows packages.
 
 [1.9.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.9.0
+[1.10.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.10.0
 [1.8.2]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.8.2
 [1.8.1]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.8.1
 [1.8.0]: https://github.com/LRecodex/mdtools-releases/releases/tag/v1.8.0
